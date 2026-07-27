@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
-
+router.use((req,use,next)=>{
+  console.log('Time',Date.now())
+  next()
+})
 
 // define the home page route
 router.get('/', (req, res) => {
