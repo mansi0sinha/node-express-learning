@@ -18,6 +18,7 @@ const types = {
 const files = fs.readdirSync("./practice/organizeFile");
 const rootdir = "./practice/organizeFile/";
 for (const file of files) {
+    //check if file it is a file or folder
     const stats = fs.statSync(path.join(rootdir, file));
     if (stats.isFile()) {
         let ext = path.extname(file).slice(1);
