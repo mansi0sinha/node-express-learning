@@ -20,7 +20,11 @@
   "homepage": "https://github.com/mansi0sinha/node-express-learning#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
   }
 }
