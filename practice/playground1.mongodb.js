@@ -3,7 +3,7 @@ use('LearnDatabase');
 
 // Insert a few documents into the Practice collection.
 db.getCollection('Learn').insertMany([
-  [
+
   {
     "name": "Node",
     "price": 2000
@@ -44,7 +44,7 @@ db.getCollection('Learn').insertMany([
     "name": "Kubernetes",
     "price": 5500
   }
-]
+
 ]);
 
 
