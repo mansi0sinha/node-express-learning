@@ -14,3 +14,5 @@ This repository contains my practice code while learning Node.js and Express.js.
 - Middleware
 - ejs(Embedded Javascript)
 - MongoDB
+- CRUD operation
+- mongoose
