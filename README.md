@@ -16,3 +16,4 @@ This repository contains my practice code while learning Node.js and Express.js.
 - MongoDB
 - CRUD operation
 - mongoose
+- Tailwind CSS
