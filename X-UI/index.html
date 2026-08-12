@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Home/X</title>
+    <link rel="shortcut icon" href="icons8-x-50.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
 
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-white ">
     <div class="flex container mx-auto  ">
-        <div class="first  w-[60%] ">
+        <div class="first  w-[50%] ">
             <div class="logo invert my-3 pr-36 flex justify-end"><svg viewBox="0 0 1200 1227"
                     xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="none" class="u01b__icon-home w-7">
                     <path
                         d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z">
                     </path>
                 </svg></div>
-            <div class="sidebar flex justify-end pr-5">
+            <div class="sidebar flex justify-center-end pr-5 ">
                 <ul class="flex flex-col text-[17px]">
 
                     <li
@@ -85,12 +86,27 @@
                         </span>
                         <span>Account</span>
                     </li>
+                    <li
+                        class="flex items-center gap-4 w-fit px-4 py-2 hover:bg-[#181818] hover:rounded-full cursor-pointer">
+                        <span class="material-symbols-outlined">
+                            more
+                        </span>
+                        <span>More</span>
+                    </li>
+                    <li>
+                        <div class="button w-full text-center py-2 mx-4">
+
+                            <button
+                                class="bg-blue-600 text-white w-full px-8 py-1.5 text-xl rounded-full cursor-pointer">Post</button>
+                        </div>
+                    </li>
 
                 </ul>
+                <div class="button"></div>
             </div>
 
         </div>
-        <div class="second  w-full border-[1px] border-x-[#16181c] border-y-[#16181c]  ">
+        <div class="second  w-full border-[1px] border-x-[#16181c] border-y-[#16181c] ">
 
             <div class="top flex p-3 relative">
                 <div class="absolute w-10 h-1 rounded-full  bg-blue-500 bottom-0 left-[19%] z-10"></div>
@@ -101,11 +117,93 @@
                     </span></div>
 
             </div>
+
             <div>
                 <h1 class="w-full bg-[#16181c]  h-[1px]"></h1>
             </div>
+            <div class="whatishapp flex gap-4 ">
+                <div class="m-2.5 img">
+                    <img src="download.jpg" alt="pfp" class="w-12 h-10 rounded-full object-cover">
+                </div>
+                <input type="text" placeholder="What's Happening?"
+                    class="bg-black text-white  text-xl outline-none w-full">
+
+            </div>
+            <div class="flex item-center mx-15 mb-1 text-blue-500 gap-4 ">
+                <span class="material-symbols-outlined ">
+                    globe_asia
+                </span>
+                <span class=""> Everyone can reply</span>
+            </div>
+            <div class="w-[90%] mx-5 bg-[#16181c]  h-[1px]">
+            </div>
+            <div class="flex justify-between items-center m-1 ">
+                <div class="upload flex gap-3 m-2 text-blue-500  ml-5">
+                    <span class="material-symbols-outlined cursor-pointer">
+                        image
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer">
+                        video_library
+                    </span>
+                    <span class="material-symbols-outlined cursor-pointer">
+                        gif
+                    </span><span class="material-symbols-outlined cursor-pointer">
+                        ballot
+                    </span><span class="material-symbols-outlined cursor-pointer">
+                        sentiment_satisfied
+                    </span><span class="material-symbols-outlined cursor-pointer">
+                        calendar_month
+                    </span><span class="material-symbols-outlined cursor-pointer">
+                        pin_drop
+                    </span>
+                </div>
+                <div class="button mr-4">
+                    <button class="bg-blue-600 text-white w-[70px] py-0.5 rounded-full cursor-pointer">
+                        Post
+                    </button>
+                </div>
+            </div>
+            <div class="w-full  bg-[#16181c]  h-[3px]">
+
+            </div>
+            <div class="posts">
+                <div class="post flex">
+                    <div class="m-2.5 img">
+                        <img src="download.jpg" alt="pfp" class="w-18 h-10 rounded-full object-cover">
+                    </div>
+                    <div class="content my-3">
+                        <span class="font-bold hover:underline cursor-pointer text-white"> nonaestheticthings </span>
+                        <span class="text-gray-500">@picturefolder .6h</span>
+                        <div>Legend</div>
+                        <div class="posting mt-4 mr-4 mb-1 ml-0">
+                            <img src="download.jpg" alt="post" class="">
+
+                        </div>
+                        <div class="reviews flex justify-between ">
+                            <div class="flex items-center gap-1">
+                                <span class="material-symbols-outlined">maps_ugc</span>
+                                <span>55</span>
+                            </div>
+
+                            <div class="flex items-center gap-1">
+                                <span class="material-symbols-outlined">favorite</span>
+                                <span>112.5k</span>
+                            </div>
+
+                            <div class="flex items-center gap-1">
+                                <span class="material-symbols-outlined">thumb_up</span>
+                                <span>3M</span>
+                            </div>
+
+                            <div class="mr-5">
+                                <span class="material-symbols-outlined">bookmark</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="third  w-[90%]">
+        <div class="third  w-[80%]">
             <div class="search ">
                 <input type="text" class="w-[75%] border rounded-full bg-[#16181c] text-white px-2 py-2 m-3"
                     placeholder="Search">
