@@ -12,7 +12,7 @@ db.getCollection('Learn').insertMany([
     "name": "Express",
     "price": 1500
   },
-  //
+
   {
     "name": "MongoDB",
     "price": 2500
