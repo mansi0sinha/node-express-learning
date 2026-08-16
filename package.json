@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":" npx tailwindcss -i ./practice/src/input.css -o ./practice/src/output.css --watch"
+    "build": " npx tailwindcss -i ./practice/src/input.css -o ./practice/src/output.css --watch"
   },
   "repository": {
     "type": "git",
